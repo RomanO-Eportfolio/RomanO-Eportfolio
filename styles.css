@@ -1,40 +1,78 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f9;
+    background-color: #eaeff2;
 }
 
 header {
     background: #0078d7;
     color: #fff;
-    padding: 1rem 0;
+    padding: 2rem 0;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1.2px;
+}
+
+nav {
+    margin: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    background: #005bb5;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: #003e7e;
 }
 
 section {
     padding: 2rem;
-    border-bottom: 1px solid #ddd;
-}
-
-section:last-of-type {
-    border-bottom: none;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     color: #0078d7;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+action-button {
+    color: #000 !important;
+    font-size: 1.26em;
+    border: radius 4;
+    letter-spacing: 25px
 }
 
 footer {
     background: #333;
     color: #fff;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     margin-top: 2rem;
+    font-size: 0.9rem;
 }
+
+footer p {
+    margin: 0;
+}
+    
+          }
